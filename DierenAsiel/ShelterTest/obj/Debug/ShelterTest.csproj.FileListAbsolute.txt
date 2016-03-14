@@ -1,0 +1,9 @@
+E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\ShelterTest.dll
+E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\ShelterTest.pdb
+E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\DierenAsiel.exe
+E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\DierenAsiel.pdb
+E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\obj\Debug\ShelterTest.csprojResolveAssemblyReference.cache
+E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\obj\Debug\ShelterTest.dll
+E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\obj\Debug\ShelterTest.pdb
