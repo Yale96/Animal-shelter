@@ -49,6 +49,7 @@
             this.btnUnreserve = new System.Windows.Forms.Button();
             this.groupBoxManage = new System.Windows.Forms.GroupBox();
             this.labelReserveUnreserve = new System.Windows.Forms.Label();
+            this.btnRemoveAnimal = new System.Windows.Forms.Button();
             this.groupBoxAddAnimal.SuspendLayout();
             this.groupBoxManage.SuspendLayout();
             this.SuspendLayout();
@@ -230,6 +231,7 @@
             // 
             // groupBoxManage
             // 
+            this.groupBoxManage.Controls.Add(this.btnRemoveAnimal);
             this.groupBoxManage.Controls.Add(this.labelReserveUnreserve);
             this.groupBoxManage.Controls.Add(this.btnReserve);
             this.groupBoxManage.Controls.Add(this.btnUnreserve);
@@ -246,10 +248,18 @@
             this.labelReserveUnreserve.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelReserveUnreserve.Location = new System.Drawing.Point(8, 26);
             this.labelReserveUnreserve.Name = "labelReserveUnreserve";
-            this.labelReserveUnreserve.Size = new System.Drawing.Size(497, 13);
+            this.labelReserveUnreserve.Size = new System.Drawing.Size(422, 13);
             this.labelReserveUnreserve.TabIndex = 19;
-            this.labelReserveUnreserve.Text = "NOTE: Select an animal in the listbox before clicking the button Reserve or Unres" +
-    "erve";
+            this.labelReserveUnreserve.Text = "NOTE: Select an animal in the listbox before you click one of the buttons";
+            // 
+            // btnRemoveAnimal
+            // 
+            this.btnRemoveAnimal.Location = new System.Drawing.Point(9, 187);
+            this.btnRemoveAnimal.Name = "btnRemoveAnimal";
+            this.btnRemoveAnimal.Size = new System.Drawing.Size(110, 23);
+            this.btnRemoveAnimal.TabIndex = 20;
+            this.btnRemoveAnimal.Text = "Remove animal";
+            this.btnRemoveAnimal.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -293,6 +303,7 @@
         private System.Windows.Forms.Button btnUnreserve;
         private System.Windows.Forms.GroupBox groupBoxManage;
         private System.Windows.Forms.Label labelReserveUnreserve;
+        private System.Windows.Forms.Button btnRemoveAnimal;
     }
 }
 
