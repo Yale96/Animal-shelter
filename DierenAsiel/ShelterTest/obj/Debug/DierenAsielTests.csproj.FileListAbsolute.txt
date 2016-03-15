@@ -7,3 +7,12 @@ E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\bin\Debu
 E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\obj\Debug\DierenAsielTests.csprojResolveAssemblyReference.cache
 E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\obj\Debug\ShelterTest.dll
 E:\Software\Software engineering\Animal-shelter\DierenAsiel\ShelterTest\obj\Debug\ShelterTest.pdb
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\ShelterTest.dll
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\ShelterTest.pdb
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\DierenAsiel.exe
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\DierenAsiel.pdb
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\ShelterTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\ShelterTest\obj\Debug\DierenAsielTests.csprojResolveAssemblyReference.cache
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\ShelterTest\obj\Debug\ShelterTest.dll
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\ShelterTest\obj\Debug\ShelterTest.pdb
