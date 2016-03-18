@@ -11,12 +11,12 @@ namespace ShelterTest
         public void TestCreateCat()
         {
             Date dateOfBirth = new Date(28, 09, 1996);
-            Cat cat = new Cat(25, "Yannick", 25, dateOfBirth, "Is net nieuw in het asiel");
+            Cat cat = new Cat(25, "Yannick", 25, dateOfBirth, "Is net nieuw");
             Assert.AreEqual(cat.RegistrationNumber, 25);
             Assert.AreEqual(cat.Name, "Yannick");
             Assert.AreEqual(cat.Price, 25);
             Assert.AreEqual(cat.DateOfBirth, dateOfBirth);
-            Assert.AreEqual(cat.Information, "Is net nieuw in het asiel");
+            Assert.AreEqual(cat.Information, "Is net nieuw");
         }
 
         [TestMethod]
