@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace DierenAsiel
 {
-    public partial class Form1 : Form
+    public partial class DierenAdministratie : Form
     {
         public Shelter shelter;
-        public Form1()
+        public DierenAdministratie()
         {
             InitializeComponent();
             shelter = new Shelter();
@@ -88,6 +88,7 @@ namespace DierenAsiel
             foreach (Animal animalToAdd in shelter.Animals)
             {
                 listBoxUnreservedAnimals.Items.Add(animalToAdd);
+                comboBoxChipNumbers.Items.Add(animalToAdd.RegistrationNumber);
             }
 
             UpdateForm();
@@ -103,6 +104,38 @@ namespace DierenAsiel
             comboBoxAnimals.SelectedIndex = -1;
 
             Refresh();
+        }
+
+        private void btnReserve_Click(object sender, EventArgs e)
+        {
+            if(comboBoxChipNumbers.SelectedIndex == -1)
+            {
+                MessageBox.Show("Select an chipnumber please");
+            }
+        }
+
+        private void btnUnreserve_Click(object sender, EventArgs e)
+        {
+            if (comboBoxChipNumbers.SelectedIndex == -1)
+            {
+                MessageBox.Show("Select an chipnumber please");
+            }
+        }
+
+        private void btnRemoveAnimal_Click(object sender, EventArgs e)
+        {
+            if (comboBoxChipNumbers.SelectedIndex == -1)
+            {
+                MessageBox.Show("Select an chipnumber please");
+            }
+        }
+
+        private void btnInformation_Click(object sender, EventArgs e)
+        {
+            if (comboBoxChipNumbers.SelectedIndex == -1)
+            {
+                MessageBox.Show("Select an chipnumber please");
+            }
         }
     }
 }

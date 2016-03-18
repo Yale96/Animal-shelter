@@ -24,7 +24,7 @@ E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsie
 E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\DierenAsiel\obj\Debug\DierenAsiel.pdb
 E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\DierenAsiel\bin\Debug\DierenAsiel.exe
 E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\DierenAsiel\bin\Debug\DierenAsiel.pdb
-E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\DierenAsiel\obj\Debug\DierenAsiel.Form1.resources
 E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\DierenAsiel\obj\Debug\DierenAsiel.Properties.Resources.resources
 E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\DierenAsiel\obj\Debug\DierenAsiel.csproj.GenerateResource.Cache
 E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\DierenAsiel\obj\Debug\DierenAsiel.csprojResolveAssemblyReference.cache
+E:\Software Engineering S2\Software engineering\Github\Animal-shelter\DierenAsiel\DierenAsiel\obj\Debug\DierenAsiel.DierenAdministratie.resources

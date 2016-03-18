@@ -1,6 +1,6 @@
 ﻿namespace DierenAsiel
 {
-    partial class Form1
+    partial class DierenAdministratie
     {
         /// <summary>
         /// Required designer variable.
@@ -48,8 +48,11 @@
             this.btnReserve = new System.Windows.Forms.Button();
             this.btnUnreserve = new System.Windows.Forms.Button();
             this.groupBoxManage = new System.Windows.Forms.GroupBox();
-            this.labelReserveUnreserve = new System.Windows.Forms.Label();
+            this.comboBoxChipNumbers = new System.Windows.Forms.ComboBox();
             this.btnRemoveAnimal = new System.Windows.Forms.Button();
+            this.labelReserveUnreserve = new System.Windows.Forms.Label();
+            this.btnInformation = new System.Windows.Forms.Button();
+            this.lbInformation = new System.Windows.Forms.ListBox();
             this.groupBoxAddAnimal.SuspendLayout();
             this.groupBoxManage.SuspendLayout();
             this.SuspendLayout();
@@ -198,49 +201,72 @@
             // listBoxReservedAnimals
             // 
             this.listBoxReservedAnimals.FormattingEnabled = true;
-            this.listBoxReservedAnimals.Location = new System.Drawing.Point(551, 247);
+            this.listBoxReservedAnimals.Location = new System.Drawing.Point(551, 345);
             this.listBoxReservedAnimals.Name = "listBoxReservedAnimals";
-            this.listBoxReservedAnimals.Size = new System.Drawing.Size(814, 225);
+            this.listBoxReservedAnimals.Size = new System.Drawing.Size(814, 316);
             this.listBoxReservedAnimals.TabIndex = 15;
             // 
             // listBoxUnreservedAnimals
             // 
             this.listBoxUnreservedAnimals.FormattingEnabled = true;
-            this.listBoxUnreservedAnimals.Location = new System.Drawing.Point(551, 12);
+            this.listBoxUnreservedAnimals.Location = new System.Drawing.Point(551, 20);
             this.listBoxUnreservedAnimals.Name = "listBoxUnreservedAnimals";
-            this.listBoxUnreservedAnimals.Size = new System.Drawing.Size(814, 225);
+            this.listBoxUnreservedAnimals.Size = new System.Drawing.Size(814, 303);
             this.listBoxUnreservedAnimals.TabIndex = 16;
             // 
             // btnReserve
             // 
-            this.btnReserve.Location = new System.Drawing.Point(9, 53);
+            this.btnReserve.Location = new System.Drawing.Point(6, 52);
             this.btnReserve.Name = "btnReserve";
-            this.btnReserve.Size = new System.Drawing.Size(110, 23);
+            this.btnReserve.Size = new System.Drawing.Size(156, 23);
             this.btnReserve.TabIndex = 17;
             this.btnReserve.Text = "Reserve animal";
             this.btnReserve.UseVisualStyleBackColor = true;
+            this.btnReserve.Click += new System.EventHandler(this.btnReserve_Click);
             // 
             // btnUnreserve
             // 
-            this.btnUnreserve.Location = new System.Drawing.Point(9, 96);
+            this.btnUnreserve.Location = new System.Drawing.Point(6, 81);
             this.btnUnreserve.Name = "btnUnreserve";
-            this.btnUnreserve.Size = new System.Drawing.Size(110, 23);
+            this.btnUnreserve.Size = new System.Drawing.Size(156, 23);
             this.btnUnreserve.TabIndex = 18;
             this.btnUnreserve.Text = "Unreserve animal";
             this.btnUnreserve.UseVisualStyleBackColor = true;
+            this.btnUnreserve.Click += new System.EventHandler(this.btnUnreserve_Click);
             // 
             // groupBoxManage
             // 
+            this.groupBoxManage.Controls.Add(this.lbInformation);
+            this.groupBoxManage.Controls.Add(this.btnInformation);
+            this.groupBoxManage.Controls.Add(this.comboBoxChipNumbers);
             this.groupBoxManage.Controls.Add(this.btnRemoveAnimal);
             this.groupBoxManage.Controls.Add(this.labelReserveUnreserve);
             this.groupBoxManage.Controls.Add(this.btnReserve);
             this.groupBoxManage.Controls.Add(this.btnUnreserve);
             this.groupBoxManage.Location = new System.Drawing.Point(12, 339);
             this.groupBoxManage.Name = "groupBoxManage";
-            this.groupBoxManage.Size = new System.Drawing.Size(508, 225);
+            this.groupBoxManage.Size = new System.Drawing.Size(508, 323);
             this.groupBoxManage.TabIndex = 19;
             this.groupBoxManage.TabStop = false;
             this.groupBoxManage.Text = "Manage animals";
+            // 
+            // comboBoxChipNumbers
+            // 
+            this.comboBoxChipNumbers.FormattingEnabled = true;
+            this.comboBoxChipNumbers.Location = new System.Drawing.Point(381, 54);
+            this.comboBoxChipNumbers.Name = "comboBoxChipNumbers";
+            this.comboBoxChipNumbers.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxChipNumbers.TabIndex = 21;
+            // 
+            // btnRemoveAnimal
+            // 
+            this.btnRemoveAnimal.Location = new System.Drawing.Point(6, 110);
+            this.btnRemoveAnimal.Name = "btnRemoveAnimal";
+            this.btnRemoveAnimal.Size = new System.Drawing.Size(156, 23);
+            this.btnRemoveAnimal.TabIndex = 20;
+            this.btnRemoveAnimal.Text = "Remove animal";
+            this.btnRemoveAnimal.UseVisualStyleBackColor = true;
+            this.btnRemoveAnimal.Click += new System.EventHandler(this.btnRemoveAnimal_Click);
             // 
             // labelReserveUnreserve
             // 
@@ -248,30 +274,39 @@
             this.labelReserveUnreserve.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelReserveUnreserve.Location = new System.Drawing.Point(8, 26);
             this.labelReserveUnreserve.Name = "labelReserveUnreserve";
-            this.labelReserveUnreserve.Size = new System.Drawing.Size(422, 13);
+            this.labelReserveUnreserve.Size = new System.Drawing.Size(437, 13);
             this.labelReserveUnreserve.TabIndex = 19;
-            this.labelReserveUnreserve.Text = "NOTE: Select an animal in the listbox before you click one of the buttons";
+            this.labelReserveUnreserve.Text = "NOTE: Select an animal in the listbox before you click at one of the buttons";
             // 
-            // btnRemoveAnimal
+            // btnInformation
             // 
-            this.btnRemoveAnimal.Location = new System.Drawing.Point(9, 187);
-            this.btnRemoveAnimal.Name = "btnRemoveAnimal";
-            this.btnRemoveAnimal.Size = new System.Drawing.Size(110, 23);
-            this.btnRemoveAnimal.TabIndex = 20;
-            this.btnRemoveAnimal.Text = "Remove animal";
-            this.btnRemoveAnimal.UseVisualStyleBackColor = true;
+            this.btnInformation.Location = new System.Drawing.Point(6, 140);
+            this.btnInformation.Name = "btnInformation";
+            this.btnInformation.Size = new System.Drawing.Size(156, 23);
+            this.btnInformation.TabIndex = 22;
+            this.btnInformation.Text = "Show info / last walk date";
+            this.btnInformation.UseVisualStyleBackColor = true;
+            this.btnInformation.Click += new System.EventHandler(this.btnInformation_Click);
             // 
-            // Form1
+            // lbInformation
+            // 
+            this.lbInformation.FormattingEnabled = true;
+            this.lbInformation.Location = new System.Drawing.Point(6, 170);
+            this.lbInformation.Name = "lbInformation";
+            this.lbInformation.Size = new System.Drawing.Size(496, 147);
+            this.lbInformation.TabIndex = 23;
+            // 
+            // DierenAdministratie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1377, 575);
+            this.ClientSize = new System.Drawing.Size(1377, 668);
             this.Controls.Add(this.groupBoxManage);
             this.Controls.Add(this.listBoxUnreservedAnimals);
             this.Controls.Add(this.listBoxReservedAnimals);
             this.Controls.Add(this.groupBoxAddAnimal);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "DierenAdministratie";
+            this.Text = "Dierenasiel van Yannick van Leeuwen";
             this.groupBoxAddAnimal.ResumeLayout(false);
             this.groupBoxAddAnimal.PerformLayout();
             this.groupBoxManage.ResumeLayout(false);
@@ -304,6 +339,9 @@
         private System.Windows.Forms.GroupBox groupBoxManage;
         private System.Windows.Forms.Label labelReserveUnreserve;
         private System.Windows.Forms.Button btnRemoveAnimal;
+        private System.Windows.Forms.ComboBox comboBoxChipNumbers;
+        private System.Windows.Forms.ListBox lbInformation;
+        private System.Windows.Forms.Button btnInformation;
     }
 }
 

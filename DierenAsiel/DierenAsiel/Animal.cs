@@ -25,7 +25,7 @@ namespace DierenAsiel
 
         public override string ToString()
         {
-            return string.Format("Registration number: {0}, Name: {1}, Price: {2}, Date of birth: {3}, Reserved? {4}", RegistrationNumber, Name, Price, DateOfBirth, Reserved);
+            return string.Format("Registration number: {0}, Name: {1}, Price: {2}, Date of birth: {3}, Reserved: {4}", RegistrationNumber, Name, Price, DateOfBirth, Reserved);
         }
     }
 }
